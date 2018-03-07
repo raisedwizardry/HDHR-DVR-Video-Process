@@ -1,0 +1,9 @@
+recordings=/srv/samba/E5TB/Video/DVR/recordings/
+work=/srv/samba/E5TB/Video/DVR/apps/process/inprocess/
+tools=/srv/samba/E5TB/Video/DVR/apps/process/
+grave=/srv/samba/E5TB/Video/DVR/apps/process/processed/
+tvout=/srv/samba/E5TB/Video/DVR/sort/tv/
+movieout=/srv/samba/E5TB/Video/DVR/sort/movies/
+tempout=/srv/samba/E5TB/Video/DVR/sort/
+library=/srv/samba/E5TB/Video/TV Shows/
+logarchive=/srv/samba/E5TB/Video/DVR/apps/homerun_record/log-archived/
