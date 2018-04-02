@@ -9,6 +9,7 @@ import arrow
 import re
 from subprocess import check_output
 from pytvdbapi import api
+import config
 
 class dir:
 	config=sys.argv[1]
@@ -109,7 +110,7 @@ def simpleName(videoFileName):
 						title=" ".join(split[:i])
 		if title is not None:
 			print("Found video title", file=dir.thelog)
-			db = api.TVDB("B43FF87DE395DF56")
+			db = api.TVDB(TVDB_APIKEY)
 			show=None
 			result = db.search(str(title), "en")
 			try:
